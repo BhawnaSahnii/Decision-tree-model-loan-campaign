@@ -81,7 +81,10 @@ jupyter notebook
 
 2. **Model Development**
    - Train-test split
-   - Decision Tree Classifier implementation
+   - Multiple Decision Tree implementations:
+     - Decision Tree with sklearn default parameters
+     - Decision Tree with Pre-Pruning
+     - Decision Tree with Post-Pruning
    - Hyperparameter tuning (max_depth, min_samples_split, criterion)
    - Handling class imbalance
 
@@ -91,6 +94,7 @@ jupyter notebook
    - ROC-AUC Curve
    - Feature importance ranking
    - Decision tree visualization
+   - Performance comparison across pruning techniques
 
 4. **Business Insights**
    - Customer segmentation rules
@@ -100,14 +104,17 @@ jupyter notebook
 ## Key Features
 
 - **Interpretable Model:** Decision trees provide clear, understandable rules for loan acceptance prediction
+- **Pruning Techniques:** Comparison of different decision tree variants (default, pre-pruning, post-pruning) to optimize model complexity and prevent overfitting
 - **Feature Importance:** Identification of most influential customer characteristics
 - **Visual Decision Rules:** Tree visualization for easy interpretation by business stakeholders
 - **Performance Metrics:** Comprehensive evaluation of model accuracy and business impact
-- **Comparative Analysis:** Performance comparison with other classification algorithms
+- **Comparative Analysis:** Test set performance comparison across different pruning strategies
 
 ## Learning Outcomes
 
 - Understanding Decision Tree algorithms and their interpretability
+- Implementing and comparing pre-pruning and post-pruning techniques
+- Managing model complexity and preventing overfitting
 - Implementing classification models for imbalanced datasets
 - Hyperparameter tuning for optimal model performance
 - Feature selection and engineering techniques
